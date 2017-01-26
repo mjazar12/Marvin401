@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831916E41E3A8F5000B58698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831916E31E3A8F5000B58698 /* AppDelegate.swift */; };
+		831916E61E3A8F5000B58698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831916E51E3A8F5000B58698 /* ViewController.swift */; };
+		831916E91E3A8F5000B58698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831916E71E3A8F5000B58698 /* Main.storyboard */; };
+		831916EB1E3A8F5000B58698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831916EA1E3A8F5000B58698 /* Assets.xcassets */; };
+		831916EE1E3A8F5000B58698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831916EC1E3A8F5000B58698 /* LaunchScreen.storyboard */; };
+		831916F91E3A8F5000B58698 /* Marvin401Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831916F81E3A8F5000B58698 /* Marvin401Tests.swift */; };
+		831917041E3A8F5000B58698 /* Marvin401UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831917031E3A8F5000B58698 /* Marvin401UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		831916F51E3A8F5000B58698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 831916D81E3A8F5000B58698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 831916DF1E3A8F5000B58698;
+			remoteInfo = Marvin401;
+		};
+		831917001E3A8F5000B58698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 831916D81E3A8F5000B58698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 831916DF1E3A8F5000B58698;
+			remoteInfo = Marvin401;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		831916E01E3A8F5000B58698 /* Marvin401.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvin401.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		831916E31E3A8F5000B58698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		831916E51E3A8F5000B58698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		831916E81E3A8F5000B58698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		831916EA1E3A8F5000B58698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		831916ED1E3A8F5000B58698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		831916EF1E3A8F5000B58698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831916F41E3A8F5000B58698 /* Marvin401Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marvin401Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		831916F81E3A8F5000B58698 /* Marvin401Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvin401Tests.swift; sourceTree = "<group>"; };
+		831916FA1E3A8F5000B58698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831916FF1E3A8F5000B58698 /* Marvin401UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marvin401UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		831917031E3A8F5000B58698 /* Marvin401UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvin401UITests.swift; sourceTree = "<group>"; };
+		831917051E3A8F5000B58698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831916DD1E3A8F5000B58698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831916F11E3A8F5000B58698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831916FC1E3A8F5000B58698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831916D71E3A8F5000B58698 = {
+			isa = PBXGroup;
+			children = (
+				831916E21E3A8F5000B58698 /* Marvin401 */,
+				831916F71E3A8F5000B58698 /* Marvin401Tests */,
+				831917021E3A8F5000B58698 /* Marvin401UITests */,
+				831916E11E3A8F5000B58698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		831916E11E3A8F5000B58698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831916E01E3A8F5000B58698 /* Marvin401.app */,
+				831916F41E3A8F5000B58698 /* Marvin401Tests.xctest */,
+				831916FF1E3A8F5000B58698 /* Marvin401UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831916E21E3A8F5000B58698 /* Marvin401 */ = {
+			isa = PBXGroup;
+			children = (
+				831916E31E3A8F5000B58698 /* AppDelegate.swift */,
+				831916E51E3A8F5000B58698 /* ViewController.swift */,
+				831916E71E3A8F5000B58698 /* Main.storyboard */,
+				831916EA1E3A8F5000B58698 /* Assets.xcassets */,
+				831916EC1E3A8F5000B58698 /* LaunchScreen.storyboard */,
+				831916EF1E3A8F5000B58698 /* Info.plist */,
+			);
+			path = Marvin401;
+			sourceTree = "<group>";
+		};
+		831916F71E3A8F5000B58698 /* Marvin401Tests */ = {
+			isa = PBXGroup;
+			children = (
+				831916F81E3A8F5000B58698 /* Marvin401Tests.swift */,
+				831916FA1E3A8F5000B58698 /* Info.plist */,
+			);
+			path = Marvin401Tests;
+			sourceTree = "<group>";
+		};
+		831917021E3A8F5000B58698 /* Marvin401UITests */ = {
+			isa = PBXGroup;
+			children = (
+				831917031E3A8F5000B58698 /* Marvin401UITests.swift */,
+				831917051E3A8F5000B58698 /* Info.plist */,
+			);
+			path = Marvin401UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		831916DF1E3A8F5000B58698 /* Marvin401 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831917081E3A8F5000B58698 /* Build configuration list for PBXNativeTarget "Marvin401" */;
+			buildPhases = (
+				831916DC1E3A8F5000B58698 /* Sources */,
+				831916DD1E3A8F5000B58698 /* Frameworks */,
+				831916DE1E3A8F5000B58698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marvin401;
+			productName = Marvin401;
+			productReference = 831916E01E3A8F5000B58698 /* Marvin401.app */;
+			productType = "com.apple.product-type.application";
+		};
+		831916F31E3A8F5000B58698 /* Marvin401Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8319170B1E3A8F5000B58698 /* Build configuration list for PBXNativeTarget "Marvin401Tests" */;
+			buildPhases = (
+				831916F01E3A8F5000B58698 /* Sources */,
+				831916F11E3A8F5000B58698 /* Frameworks */,
+				831916F21E3A8F5000B58698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				831916F61E3A8F5000B58698 /* PBXTargetDependency */,
+			);
+			name = Marvin401Tests;
+			productName = Marvin401Tests;
+			productReference = 831916F41E3A8F5000B58698 /* Marvin401Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		831916FE1E3A8F5000B58698 /* Marvin401UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8319170E1E3A8F5000B58698 /* Build configuration list for PBXNativeTarget "Marvin401UITests" */;
+			buildPhases = (
+				831916FB1E3A8F5000B58698 /* Sources */,
+				831916FC1E3A8F5000B58698 /* Frameworks */,
+				831916FD1E3A8F5000B58698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				831917011E3A8F5000B58698 /* PBXTargetDependency */,
+			);
+			name = Marvin401UITests;
+			productName = Marvin401UITests;
+			productReference = 831916FF1E3A8F5000B58698 /* Marvin401UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831916D81E3A8F5000B58698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mazen Azar";
+				TargetAttributes = {
+					831916DF1E3A8F5000B58698 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					831916F31E3A8F5000B58698 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 831916DF1E3A8F5000B58698;
+					};
+					831916FE1E3A8F5000B58698 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 831916DF1E3A8F5000B58698;
+					};
+				};
+			};
+			buildConfigurationList = 831916DB1E3A8F5000B58698 /* Build configuration list for PBXProject "Marvin401" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 831916D71E3A8F5000B58698;
+			productRefGroup = 831916E11E3A8F5000B58698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831916DF1E3A8F5000B58698 /* Marvin401 */,
+				831916F31E3A8F5000B58698 /* Marvin401Tests */,
+				831916FE1E3A8F5000B58698 /* Marvin401UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831916DE1E3A8F5000B58698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831916EE1E3A8F5000B58698 /* LaunchScreen.storyboard in Resources */,
+				831916EB1E3A8F5000B58698 /* Assets.xcassets in Resources */,
+				831916E91E3A8F5000B58698 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831916F21E3A8F5000B58698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831916FD1E3A8F5000B58698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831916DC1E3A8F5000B58698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831916E61E3A8F5000B58698 /* ViewController.swift in Sources */,
+				831916E41E3A8F5000B58698 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831916F01E3A8F5000B58698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831916F91E3A8F5000B58698 /* Marvin401Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831916FB1E3A8F5000B58698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831917041E3A8F5000B58698 /* Marvin401UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		831916F61E3A8F5000B58698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 831916DF1E3A8F5000B58698 /* Marvin401 */;
+			targetProxy = 831916F51E3A8F5000B58698 /* PBXContainerItemProxy */;
+		};
+		831917011E3A8F5000B58698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 831916DF1E3A8F5000B58698 /* Marvin401 */;
+			targetProxy = 831917001E3A8F5000B58698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		831916E71E3A8F5000B58698 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831916E81E3A8F5000B58698 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		831916EC1E3A8F5000B58698 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831916ED1E3A8F5000B58698 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		831917061E3A8F5000B58698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		831917071E3A8F5000B58698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		831917091E3A8F5000B58698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Marvin401/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Marvin401;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8319170A1E3A8F5000B58698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Marvin401/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Marvin401;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8319170C1E3A8F5000B58698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Marvin401Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Marvin401Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marvin401.app/Marvin401";
+			};
+			name = Debug;
+		};
+		8319170D1E3A8F5000B58698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Marvin401Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Marvin401Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marvin401.app/Marvin401";
+			};
+			name = Release;
+		};
+		8319170F1E3A8F5000B58698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Marvin401UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Marvin401UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Marvin401;
+			};
+			name = Debug;
+		};
+		831917101E3A8F5000B58698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Marvin401UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Marvin401UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Marvin401;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831916DB1E3A8F5000B58698 /* Build configuration list for PBXProject "Marvin401" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831917061E3A8F5000B58698 /* Debug */,
+				831917071E3A8F5000B58698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831917081E3A8F5000B58698 /* Build configuration list for PBXNativeTarget "Marvin401" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831917091E3A8F5000B58698 /* Debug */,
+				8319170A1E3A8F5000B58698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8319170B1E3A8F5000B58698 /* Build configuration list for PBXNativeTarget "Marvin401Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8319170C1E3A8F5000B58698 /* Debug */,
+				8319170D1E3A8F5000B58698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8319170E1E3A8F5000B58698 /* Build configuration list for PBXNativeTarget "Marvin401UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8319170F1E3A8F5000B58698 /* Debug */,
+				831917101E3A8F5000B58698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831916D81E3A8F5000B58698 /* Project object */;
+}
