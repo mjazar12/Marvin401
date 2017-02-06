@@ -14,6 +14,7 @@
 		831916EE1E3A8F5000B58698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831916EC1E3A8F5000B58698 /* LaunchScreen.storyboard */; };
 		831916F91E3A8F5000B58698 /* Marvin401Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831916F81E3A8F5000B58698 /* Marvin401Tests.swift */; };
 		831917041E3A8F5000B58698 /* Marvin401UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831917031E3A8F5000B58698 /* Marvin401UITests.swift */; };
+		EBE8DFC61E48F5D10064202E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE8DFC41E48F5D10064202E /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		831916FF1E3A8F5000B58698 /* Marvin401UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marvin401UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831917031E3A8F5000B58698 /* Marvin401UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvin401UITests.swift; sourceTree = "<group>"; };
 		831917051E3A8F5000B58698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE8DFC51E48F5D10064202E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				831916E31E3A8F5000B58698 /* AppDelegate.swift */,
 				831916E51E3A8F5000B58698 /* ViewController.swift */,
 				831916E71E3A8F5000B58698 /* Main.storyboard */,
+				EBE8DFC41E48F5D10064202E /* Login.storyboard */,
 				831916EA1E3A8F5000B58698 /* Assets.xcassets */,
 				831916EC1E3A8F5000B58698 /* LaunchScreen.storyboard */,
 				831916EF1E3A8F5000B58698 /* Info.plist */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE8DFC61E48F5D10064202E /* Login.storyboard in Resources */,
 				831916EE1E3A8F5000B58698 /* LaunchScreen.storyboard in Resources */,
 				831916EB1E3A8F5000B58698 /* Assets.xcassets in Resources */,
 				831916E91E3A8F5000B58698 /* Main.storyboard in Resources */,
@@ -310,6 +314,14 @@
 				831916ED1E3A8F5000B58698 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EBE8DFC41E48F5D10064202E /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE8DFC51E48F5D10064202E /* Base */,
+			);
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
