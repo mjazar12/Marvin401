@@ -14,6 +14,7 @@
 		831916EE1E3A8F5000B58698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831916EC1E3A8F5000B58698 /* LaunchScreen.storyboard */; };
 		831916F91E3A8F5000B58698 /* Marvin401Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831916F81E3A8F5000B58698 /* Marvin401Tests.swift */; };
 		831917041E3A8F5000B58698 /* Marvin401UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831917031E3A8F5000B58698 /* Marvin401UITests.swift */; };
+		B8BC072E8D3C8CF9B710D5E3 /* Pods_Marvin401.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BAFDDD4485C22A8B06E4C4 /* Pods_Marvin401.framework */; };
 		EBE8DFC61E48F5D10064202E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE8DFC41E48F5D10064202E /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11BAFDDD4485C22A8B06E4C4 /* Pods_Marvin401.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvin401.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		831916E01E3A8F5000B58698 /* Marvin401.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvin401.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831916E31E3A8F5000B58698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		831916E51E3A8F5000B58698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 		831916FF1E3A8F5000B58698 /* Marvin401UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marvin401UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831917031E3A8F5000B58698 /* Marvin401UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvin401UITests.swift; sourceTree = "<group>"; };
 		831917051E3A8F5000B58698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6E75C6F8C2CB144D684CF8A /* Pods-Marvin401.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvin401.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marvin401/Pods-Marvin401.release.xcconfig"; sourceTree = "<group>"; };
+		E28525BADB2933858CC3C3BD /* Pods-Marvin401.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvin401.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marvin401/Pods-Marvin401.debug.xcconfig"; sourceTree = "<group>"; };
 		EBE8DFC51E48F5D10064202E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8BC072E8D3C8CF9B710D5E3 /* Pods_Marvin401.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DACCF04ACBC2A5D61571579 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11BAFDDD4485C22A8B06E4C4 /* Pods_Marvin401.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		831916D71E3A8F5000B58698 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,8 @@
 				831916F71E3A8F5000B58698 /* Marvin401Tests */,
 				831917021E3A8F5000B58698 /* Marvin401UITests */,
 				831916E11E3A8F5000B58698 /* Products */,
+				AC401DAD549300F64884BCCF /* Pods */,
+				4DACCF04ACBC2A5D61571579 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +143,15 @@
 			path = Marvin401UITests;
 			sourceTree = "<group>";
 		};
+		AC401DAD549300F64884BCCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E28525BADB2933858CC3C3BD /* Pods-Marvin401.debug.xcconfig */,
+				A6E75C6F8C2CB144D684CF8A /* Pods-Marvin401.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 831917081E3A8F5000B58698 /* Build configuration list for PBXNativeTarget "Marvin401" */;
 			buildPhases = (
+				8B3BC738AF626D7E9195D0A6 /* [CP] Check Pods Manifest.lock */,
 				831916DC1E3A8F5000B58698 /* Sources */,
 				831916DD1E3A8F5000B58698 /* Frameworks */,
 				831916DE1E3A8F5000B58698 /* Resources */,
+				F807ED16F74E5FC4E36D2751 /* [CP] Embed Pods Frameworks */,
+				44B79AC28DE1817A9324EC86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +284,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44B79AC28DE1817A9324EC86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marvin401/Pods-Marvin401-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B3BC738AF626D7E9195D0A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F807ED16F74E5FC4E36D2751 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marvin401/Pods-Marvin401-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		831916DC1E3A8F5000B58698 /* Sources */ = {
@@ -419,6 +494,7 @@
 		};
 		831917091E3A8F5000B58698 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28525BADB2933858CC3C3BD /* Pods-Marvin401.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Marvin401/Info.plist;
@@ -431,6 +507,7 @@
 		};
 		8319170A1E3A8F5000B58698 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E75C6F8C2CB144D684CF8A /* Pods-Marvin401.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Marvin401/Info.plist;

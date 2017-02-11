@@ -1,0 +1,6 @@
+framework module Pods_Marvin401 {
+  umbrella header "Pods-Marvin401-umbrella.h"
+
+  export *
+  module * { export * }
+}
