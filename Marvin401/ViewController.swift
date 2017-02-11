@@ -8,10 +8,12 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
-    @IBOutlet weak var FirstNameTextField: UITextField!
-    @IBOutlet weak var LastNameTextfield: UITextField!
+        
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

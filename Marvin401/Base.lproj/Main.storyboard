@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
@@ -654,10 +654,10 @@
             </objects>
             <point key="canvasLocation" x="387.890625" y="1168.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="sA5-B9-XIe">
             <objects>
-                <viewController id="ute-B4-Tj8" customClass="ViewController" customModule="Marvin401" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ute-B4-Tj8" customClass="LoginViewController" customModule="Marvin401" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GtH-Fm-0FS"/>
                         <viewControllerLayoutGuide type="bottom" id="utm-7p-vcH"/>
@@ -818,14 +818,35 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonRegister:" destination="ute-B4-Tj8" eventType="touchUpInside" id="S4a-Vi-VkW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.050980392159999999" green="0.38823529410000002" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="AddressTextField" destination="jcO-zz-9jk" id="9yl-ba-HSu"/>
+                        <outlet property="BirthdayPicker" destination="Cuf-xF-Yqt" id="KwW-CL-cBg"/>
+                        <outlet property="CityTextField" destination="JTl-eh-tXy" id="7Xe-fb-m2s"/>
+                        <outlet property="EmailTextField" destination="VwV-D7-u9j" id="KHR-f6-e05"/>
                         <outlet property="FirstNameTextField" destination="8hA-qn-iQu" id="gCK-kR-MEX"/>
                         <outlet property="LastNameTextfield" destination="Fyr-Gt-oXx" id="2FC-6z-Xou"/>
+                        <outlet property="PasswordTextField" destination="pfH-OA-5hN" id="JhE-tN-hre"/>
+                        <outlet property="StatePicker" destination="IpP-xx-kfr" id="whF-zf-6XO"/>
+                        <outlet property="UsernameTextField" destination="bEI-rh-ZqD" id="mrq-dS-B4M"/>
+                        <outlet property="ZipTextField" destination="7Zx-y4-3bs" id="Sl2-w5-dyP"/>
+                        <outlet property="addressTextField" destination="jcO-zz-9jk" id="KSo-w3-KaO"/>
+                        <outlet property="birthdayPicker" destination="Cuf-xF-Yqt" id="icB-uK-KhJ"/>
+                        <outlet property="cityTextField" destination="JTl-eh-tXy" id="iHa-9K-Xht"/>
+                        <outlet property="emailTextField" destination="VwV-D7-u9j" id="qeq-XM-Mjl"/>
+                        <outlet property="firstNameTextField" destination="8hA-qn-iQu" id="Wzu-BQ-8fW"/>
+                        <outlet property="lastNameTextfield" destination="Fyr-Gt-oXx" id="EFh-KS-gvf"/>
+                        <outlet property="passwordTextField" destination="pfH-OA-5hN" id="ZKF-Um-Gub"/>
                         <outlet property="searchDisplayController" destination="6p3-NF-MBh" id="EXc-rN-4Sb"/>
+                        <outlet property="statePicker" destination="IpP-xx-kfr" id="r8i-xJ-uqo"/>
+                        <outlet property="usernameTextField" destination="bEI-rh-ZqD" id="wnT-bQ-Sxi"/>
+                        <outlet property="zipTextField" destination="7Zx-y4-3bs" id="xYe-RD-CIu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L0P-dc-uKA" sceneMemberID="firstResponder"/>
