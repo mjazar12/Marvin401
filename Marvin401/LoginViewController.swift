@@ -30,6 +30,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var statePicker: UIPickerView!
     
     @IBOutlet weak var zipTextField: UITextField!
+    @IBOutlet weak var label: UILabel!
     
     @IBAction func buttonRegister(_ sender: UIButton) {
         
@@ -40,29 +41,27 @@ class LoginViewController: UIViewController {
             "last" : lastNameTextfield.text!,
             "email" : emailTextField.text!
         ]
-    }
+    
     
     Alamofire.request(URL_USER_REGISTER, method: .post, parameters: parameters).responseJSON
-    {
-    response in
-    //printing response
-    print(response)
+        {
+        response in
+        //printing response
+        print(response)
     
-    //getting the json value from the server
-    if let result = response.result.value {
+        //getting the json value from the server
+        if let result = response.result.value {
     
-    //converting it as NSDictionary
-    let jsonData = result as! NSDictionary
+        //converting it as NSDictionary
+        let jsonData = result as! NSDictionary
     
-    //displaying the message in label
-    self.labelMessage.text = jsonData.value(forKey: "message") as! String?
+        //displaying the message in label
+        self.label.text = jsonData.value(forKey: "message") as! String?
+        }
     }
+
+
     }
-    
-}
-
-
-
 
 
     override func viewDidLoad() {
