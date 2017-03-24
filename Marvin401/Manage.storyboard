@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Jvb-GF-3Vx">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -40,7 +40,7 @@
                                 <color key="textColor" red="0.12068148702383041" green="0.54156917333602905" blue="0.99425667524337769" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt; Edit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jan-A2-T2U">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Edit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jan-A2-T2U">
                                 <rect key="frame" x="291" y="81" width="68" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -57,18 +57,11 @@
                                     <segment title="Connect"/>
                                 </segments>
                             </segmentedControl>
-                            <containerView opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gkn-rF-fhX">
-                                <rect key="frame" x="16" y="146" width="334" height="507"/>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gkn-rF-fhX">
+                                <rect key="frame" x="8" y="146" width="359" height="501"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="zOp-F6-8Id" kind="embed" id="D4Q-ex-wbC"/>
-                                </connections>
-                            </containerView>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="efa-4n-kiK">
-                                <rect key="frame" x="16" y="146" width="334" height="507"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <connections>
-                                    <segue destination="3Bh-3Z-jZm" kind="embed" id="dJh-yA-hrr"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -87,8 +80,8 @@
                         <viewControllerLayoutGuide type="top" id="iw0-9C-X9L"/>
                         <viewControllerLayoutGuide type="bottom" id="kVu-9L-aDR"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="SGm-TD-iy6">
-                        <rect key="frame" x="0.0" y="0.0" width="334" height="507"/>
+                    <view key="view" contentMode="center" id="SGm-TD-iy6">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="501"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Schedule &amp; Track" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41o-gf-pmw">
@@ -182,6 +175,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="100" height="100"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PF8-iN-dIe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -191,9 +185,19 @@
         <scene sceneID="sAa-eZ-BQU">
             <objects>
                 <viewController id="3Bh-3Z-jZm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y4O-ae-8Ob"/>
+                        <viewControllerLayoutGuide type="bottom" id="dds-GD-Ke7"/>
+                    </layoutGuides>
                     <view key="view" alpha="0.0" contentMode="scaleToFill" id="fmE-Hv-jjr">
-                        <rect key="frame" x="0.0" y="0.0" width="334" height="507"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8pD-gK-IVm">
+                                <rect key="frame" x="34" y="50" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
