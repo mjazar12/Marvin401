@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Manage Controller-->
         <scene sceneID="zmy-O5-IFO">
             <objects>
-                <viewController id="Jvb-GF-3Vx" sceneMemberID="viewController">
+                <viewController id="Jvb-GF-3Vx" customClass="ManageController" customModule="Marvin401" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5kU-Q5-Kmg"/>
                         <viewControllerLayoutGuide type="bottom" id="m5O-4M-vDw"/>
@@ -56,17 +56,48 @@
                                     <segment title="Manage"/>
                                     <segment title="Connect"/>
                                 </segments>
+                                <connections>
+                                    <action selector="showComponentWithSender:" destination="Jvb-GF-3Vx" eventType="valueChanged" id="wFW-nO-UDB"/>
+                                </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gkn-rF-fhX">
-                                <rect key="frame" x="8" y="146" width="359" height="501"/>
+                                <rect key="frame" x="8" y="503" width="359" height="144"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <segue destination="zOp-F6-8Id" kind="embed" id="D4Q-ex-wbC"/>
+                                    <segue destination="xEn-IJ-CCy" kind="embed" id="p7N-h2-jxg"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="acJ-IB-K4f">
+                                <rect key="frame" x="8" y="503" width="359" height="144"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="ew7-7A-gXo" kind="embed" id="ibY-vd-cwW"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BIj-38-oyo">
+                                <rect key="frame" x="8" y="503" width="359" height="144"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="zOp-F6-8Id" kind="embed" id="4EY-BY-g77"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zKK-MO-MJU">
+                                <rect key="frame" x="8" y="503" width="359" height="144"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="7z7-Q8-kzj" kind="embed" id="v9O-UP-5Kw"/>
                                 </connections>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="connectContainer" destination="zKK-MO-MJU" id="vtr-Pw-GWd"/>
+                        <outlet property="findContainer" destination="acJ-IB-K4f" id="Z4L-nL-ADi"/>
+                        <outlet property="manageContainer" destination="BIj-38-oyo" id="M3F-rw-fBT"/>
+                        <outlet property="segmentController" destination="sec-9N-Qcx" id="R6J-W3-t6f"/>
+                        <outlet property="understandContainer" destination="Gkn-rF-fhX" id="NlO-uU-K3A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dCG-or-Ocb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -75,13 +106,13 @@
         <!--View Controller-->
         <scene sceneID="1fP-hP-8zR">
             <objects>
-                <viewController id="zOp-F6-8Id" sceneMemberID="viewController">
+                <viewController id="zOp-F6-8Id" customClass="ViewController" customModule="Marvin401" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iw0-9C-X9L"/>
                         <viewControllerLayoutGuide type="bottom" id="kVu-9L-aDR"/>
                     </layoutGuides>
                     <view key="view" contentMode="center" id="SGm-TD-iy6">
-                        <rect key="frame" x="0.0" y="0.0" width="359" height="501"/>
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="144"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Schedule &amp; Track" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41o-gf-pmw">
@@ -179,31 +210,91 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PF8-iN-dIe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1032" y="69.715142428785612"/>
+            <point key="canvasLocation" x="946" y="-54"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="sAa-eZ-BQU">
+        <scene sceneID="0Hf-OO-Uh1">
             <objects>
-                <viewController id="3Bh-3Z-jZm" sceneMemberID="viewController">
+                <viewController id="xEn-IJ-CCy" customClass="ViewController" customModule="Marvin401" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y4O-ae-8Ob"/>
-                        <viewControllerLayoutGuide type="bottom" id="dds-GD-Ke7"/>
+                        <viewControllerLayoutGuide type="top" id="me2-eC-p5u"/>
+                        <viewControllerLayoutGuide type="bottom" id="wZB-lW-tlN"/>
                     </layoutGuides>
-                    <view key="view" alpha="0.0" contentMode="scaleToFill" id="fmE-Hv-jjr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="center" id="BSf-ve-7vv">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="144"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8pD-gK-IVm">
-                                <rect key="frame" x="34" y="50" width="240" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="understand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7SI-S8-aH3">
+                                <rect key="frame" x="100" y="20" width="88" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </scrollView>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="100" height="100"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GVL-Ef-0lF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mxZ-O1-PiC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="894" y="769"/>
+            <point key="canvasLocation" x="945" y="158"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k4e-sq-Cyj">
+            <objects>
+                <viewController id="ew7-7A-gXo" customClass="ViewController" customModule="Marvin401" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RsV-PK-DU3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rea-FF-IJn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="center" id="3JK-Y1-gRh">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="144"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="find" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRP-aZ-fT1">
+                                <rect key="frame" x="100" y="20" width="30" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="100" height="100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ND6-gd-f6r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="637"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oki-zL-aHu">
+            <objects>
+                <viewController id="7z7-Q8-kzj" customClass="ViewController" customModule="Marvin401" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Flz-UG-tUo"/>
+                        <viewControllerLayoutGuide type="bottom" id="dLI-fu-aON"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="center" id="FS1-bu-JJE">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="144"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="connect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIg-bl-m0U">
+                                <rect key="frame" x="100" y="20" width="63" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="100" height="100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bpV-YY-eZL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="394"/>
         </scene>
     </scenes>
     <resources>

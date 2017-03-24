@@ -18,6 +18,7 @@
 		83F966E71E4FD472002DC65F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F966E61E4FD472002DC65F /* LoginViewController.swift */; };
 		B8BC072E8D3C8CF9B710D5E3 /* Pods_Marvin401.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BAFDDD4485C22A8B06E4C4 /* Pods_Marvin401.framework */; };
 		EB874A671E85945E00E2B043 /* Manage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB874A661E85945E00E2B043 /* Manage.storyboard */; };
+		EB874A691E85CACB00E2B043 /* ManageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB874A681E85CACB00E2B043 /* ManageController.swift */; };
 		EBE8DFC61E48F5D10064202E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE8DFC41E48F5D10064202E /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		A6E75C6F8C2CB144D684CF8A /* Pods-Marvin401.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvin401.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marvin401/Pods-Marvin401.release.xcconfig"; sourceTree = "<group>"; };
 		E28525BADB2933858CC3C3BD /* Pods-Marvin401.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvin401.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marvin401/Pods-Marvin401.debug.xcconfig"; sourceTree = "<group>"; };
 		EB874A661E85945E00E2B043 /* Manage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Manage.storyboard; sourceTree = "<group>"; };
+		EB874A681E85CACB00E2B043 /* ManageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageController.swift; sourceTree = "<group>"; };
 		EBE8DFC51E48F5D10064202E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 				83F966E61E4FD472002DC65F /* LoginViewController.swift */,
 				831916E71E3A8F5000B58698 /* Main.storyboard */,
 				83419A231E85922E003E7EBF /* NewUI.storyboard */,
+				EB874A681E85CACB00E2B043 /* ManageController.swift */,
 				EB874A661E85945E00E2B043 /* Manage.storyboard */,
 				EBE8DFC41E48F5D10064202E /* Login.storyboard */,
 				831916EA1E3A8F5000B58698 /* Assets.xcassets */,
@@ -351,6 +354,7 @@
 			files = (
 				83F966E71E4FD472002DC65F /* LoginViewController.swift in Sources */,
 				831916E61E3A8F5000B58698 /* ViewController.swift in Sources */,
+				EB874A691E85CACB00E2B043 /* ManageController.swift in Sources */,
 				831916E41E3A8F5000B58698 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
