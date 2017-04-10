@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Today" image="Asset 5" selectedImage="Asset 5" id="Y2q-ZS-ol6"/>
+                    <tabBarItem key="tabBarItem" title="Today" image="Asset 4" selectedImage="Asset 4" id="Y2q-ZS-ol6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pmI-pA-PdV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -41,7 +41,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Care Plan" image="Asset 7" id="FfM-oy-xZE"/>
+                    <tabBarItem key="tabBarItem" title="Care Plan" image="Asset 6" selectedImage="Asset 6" id="FfM-oy-xZE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rsi-RD-71s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -193,7 +193,7 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="Asset 3" selectedImage="Asset 3" id="Uk9-pG-pMg"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="Asset 2@2x" selectedImage="Asset 2@2x" id="Uk9-pG-pMg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="35H-za-Ugb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -251,7 +251,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tools" image="Asset 9" selectedImage="Asset 9" id="1at-HR-PZV"/>
+                    <tabBarItem key="tabBarItem" title="Tools" image="Asset 4" selectedImage="Asset 4" id="1at-HR-PZV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zIc-0g-J0m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -270,7 +270,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" image="Asset 13" selectedImage="Asset 13" id="WDS-af-BYc"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="Asset 10" selectedImage="Asset 10" id="WDS-af-BYc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nNS-7l-H0t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -665,14 +665,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Asset 10" width="25" height="25"/>
         <image name="Asset 10sq" width="337" height="337"/>
         <image name="Asset 11sq" width="337" height="337"/>
-        <image name="Asset 13" width="50" height="50"/>
-        <image name="Asset 3" width="50" height="50"/>
-        <image name="Asset 5" width="46" height="48"/>
-        <image name="Asset 7" width="50" height="42"/>
+        <image name="Asset 2@2x" width="25" height="25"/>
+        <image name="Asset 4" width="25" height="25"/>
+        <image name="Asset 6" width="25" height="25"/>
         <image name="Asset 8sq" width="337" height="337"/>
-        <image name="Asset 9" width="50" height="50"/>
         <image name="Asset 9sq" width="337" height="337"/>
         <image name="appointmentsq" width="100" height="100"/>
         <image name="arrowRight" width="1024" height="1024"/>
@@ -689,6 +688,6 @@
         <image name="vitalssq (1)" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ZMJ-RK-0m0"/>
+        <segue reference="vSA-KN-fH5"/>
     </inferredMetricsTieBreakers>
 </document>
