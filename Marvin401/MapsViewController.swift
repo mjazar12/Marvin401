@@ -24,11 +24,6 @@ class MapsViewController: UIViewController {
         mapView.isMyLocationEnabled = true
         view = mapView
         
-        let currLocation = CLLocationCoordinate2DMake(34.018800, -118.286509)
-        let marker = GMSMarker(position: currLocation)
-        marker.title = "MyLocation"
-        marker.map = mapView
-        
         let pharmacy1 = CLLocationCoordinate2DMake(34.0201, -118.2855)
         let P1marker = GMSMarker(position: pharmacy1)
         P1marker.title = "USC Pharmacy"
