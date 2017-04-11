@@ -16,8 +16,19 @@ class ManageController: UIViewController {
     
     @IBOutlet weak var segmentController: UISegmentedControl!
     
+    var setFind = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        if setFind {
+            segmentController.selectedSegmentIndex = 1
+            UIView.animate(withDuration: 0.5, animations: {
+                self.understandContainer.alpha = 0
+                self.findContainer.alpha = 1
+                self.manageContainer.alpha = 0
+                self.connectContainer.alpha=0
+            })
+        }
     }
     
     @IBAction func showComponent(sender: UISegmentedControl) {
@@ -28,7 +39,7 @@ class ManageController: UIViewController {
                 self.manageContainer.alpha = 0
                 self.connectContainer.alpha=0
             })
-        } else if segmentController.selectedSegmentIndex == 1 {
+        } else if segmentController.selectedSegmentIndex == 1 || setFind{
             UIView.animate(withDuration: 0.5, animations: {
                 self.understandContainer.alpha = 0
                 self.findContainer.alpha = 1
