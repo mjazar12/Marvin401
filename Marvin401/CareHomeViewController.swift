@@ -22,9 +22,18 @@ class CareHomeViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let mc = segue.destination as! ManageController
         if segue.identifier == "MapsSegue"{
-            let mc = segue.destination as! ManageController
             mc.setFind = true
+        }
+        else if segue.identifier == "UnderstandSegue"{
+            mc.setUnderstand = true
+        }
+        else if segue.identifier == "ManageSegue" {
+            mc.setManage = true
+        }
+        else if segue.identifier == "ConnectSegue" {
+            mc.setConnect = true
         }
     }
     

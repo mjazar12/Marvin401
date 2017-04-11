@@ -17,6 +17,9 @@ class ManageController: UIViewController {
     @IBOutlet weak var segmentController: UISegmentedControl!
     
     var setFind = false
+    var setUnderstand = false
+    var setManage = false
+    var setConnect = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +30,33 @@ class ManageController: UIViewController {
                 self.findContainer.alpha = 1
                 self.manageContainer.alpha = 0
                 self.connectContainer.alpha=0
+            })
+        }
+        else if setUnderstand {
+            segmentController.selectedSegmentIndex = 0
+            UIView.animate(withDuration: 0.5, animations: {
+                self.understandContainer.alpha = 1
+                self.findContainer.alpha = 0
+                self.manageContainer.alpha = 0
+                self.connectContainer.alpha=0
+            })
+        }
+        else if setManage {
+            segmentController.selectedSegmentIndex = 2
+            UIView.animate(withDuration: 0.5, animations: {
+                self.understandContainer.alpha = 0
+                self.findContainer.alpha = 0
+                self.manageContainer.alpha = 1
+                self.connectContainer.alpha=0
+            })
+        }
+        else if setConnect {
+            segmentController.selectedSegmentIndex = 3
+            UIView.animate(withDuration: 0.5, animations: {
+                self.understandContainer.alpha = 0
+                self.findContainer.alpha = 0
+                self.manageContainer.alpha = 0
+                self.connectContainer.alpha = 1
             })
         }
     }

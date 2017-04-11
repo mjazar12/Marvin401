@@ -160,7 +160,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Asset 11sq"/>
                                 <connections>
-                                    <segue destination="q0A-sI-cnR" kind="presentation" id="Ojl-Et-FHD"/>
+                                    <segue destination="q0A-sI-cnR" kind="presentation" identifier="ConnectSegue" id="Ojl-Et-FHD"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Connect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w7i-m5-5QJ">
@@ -175,7 +175,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Asset 8sq"/>
                                 <connections>
-                                    <segue destination="q0A-sI-cnR" kind="presentation" id="fJj-vo-7YJ"/>
+                                    <segue destination="q0A-sI-cnR" kind="presentation" identifier="UnderstandSegue" id="fJj-vo-7YJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oj7-pE-7Ue">
@@ -183,7 +183,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Asset 10sq"/>
                                 <connections>
-                                    <segue destination="q0A-sI-cnR" kind="presentation" id="t73-Ye-UKu"/>
+                                    <segue destination="q0A-sI-cnR" kind="presentation" identifier="ManageSegue" id="t73-Ye-UKu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Understand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0iG-Jg-Afr">
@@ -701,7 +701,7 @@
         <image name="vitalssq (1)" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ba9-Y7-Tol"/>
+        <segue reference="t73-Ye-UKu"/>
         <segue reference="ZMJ-RK-0m0"/>
     </inferredMetricsTieBreakers>
 </document>
